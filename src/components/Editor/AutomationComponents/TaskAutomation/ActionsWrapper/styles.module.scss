@@ -1,0 +1,154 @@
+@import "../../../../../styles/colors";
+
+.actionElementWrapper {
+  background-color: $blueberry-six;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 15px rgba(1, 40, 64, 0.1);
+  border-radius: 10px;
+}
+
+.actionTopRow {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.inactiveInput {
+  & input {
+    color: $grey4 !important;
+    background-color: $grey6 !important;
+  }
+}
+
+
+.stylesDropdownContainer {
+  box-shadow: none !important;
+  width: 80px;
+  border: none;
+}
+
+.inputCheckbox {
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  color: $grey2 !important;
+  font-family: Source Sans Pro, sans-serif;
+
+}
+
+.stylesDropdown {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  background-color: white !important;
+  padding: 0px 5px !important;
+  box-shadow: none !important;
+  height: 25px !important;
+  color: $grey2 !important;
+  font-family: Source Sans Pro, sans-serif;
+
+  &:focus {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  &:focus-within {
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.inputNumber {
+
+  & input {
+    text-align: center;
+    background-color: white;
+    padding: 5px !important;
+    height: 26px !important;
+    width: 60px;
+    color: $grey2;
+    border: 1px solid $blueberry3 !important;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-family: Source Sans Pro, sans-serif;
+  }
+}
+
+.actionDropdownContainerWrapper {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $blueberry-five;
+}
+
+.actionDropdownContainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  font-family: "Source Sans Pro", Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: $blueberry-one;
+}
+
+.radioButtonElementInnerStyle {
+  padding-left: 0px;
+}
+
+.customTrigger {
+  width: 220px;
+}
+
+.setValueLabel {
+  width: 150px;
+
+  & label {
+    margin-top: -4px !important;
+  }
+}
+
+
+.triggerWrapper {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  font-family: "Source Sans Pro", Serif;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: $grey-two;
+}
+
+.triggerLine {
+  &:not(:last-child) {
+    padding-bottom: 2px;
+  }
+}
+
+.radioButtonStyle {
+
+  & label {
+    &:before {
+      background-color: transparent !important;
+    }
+  }
+}
+
+.actionMainPart {
+  padding-top: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 20px;
+}
+
+.radioButton {
+  padding-top: 10px;
+  font-family: "Source Sans Pro", Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: $grey-two;
+}

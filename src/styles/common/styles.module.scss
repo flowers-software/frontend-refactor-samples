@@ -1,0 +1,324 @@
+@import "../colors";
+@import "../zIndexing";
+
+.tooltipContainer {
+  background-color: $blueberry2 !important;
+  color: white !important;
+  word-break: break-word;
+  z-index: $zindexTooltip !important;
+  max-width: 30em;
+  hyphens: manual !important;
+  opacity: 1 !important;
+  text-align: left;
+}
+
+.lineHeightNormal {
+  line-height: normal;
+}
+
+.tooltipContainer::after {
+  border-color: transparent !important;
+}
+
+.inputValueError {
+  border-color: $lychee-one !important;
+  color: $lychee-one !important;
+
+  &::placeholder {
+    color: $lychee-one !important;
+  }
+}
+
+.errorText {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: $lychee-one;
+}
+
+.nothingFoundMessage {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: $blueberry2;
+}
+
+.labelContainer {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.85rem;
+  line-height: 1rem;
+
+  text-transform: uppercase;
+
+  color: $blueberry-three;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.displayGrid {
+  display: grid!important;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.unselectable {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  -o-user-select:none;
+}
+
+$inputShadowHOffset: 0px;
+$inputShadowVOffset: 2px;
+
+.inputShadow {
+  box-shadow: #90bdd9 inset $inputShadowHOffset $inputShadowVOffset 1px !important;
+}
+
+.roundedContainer {
+  border-radius: 15px;
+}
+
+$roundedInputRadius: 20px;
+.roundedInput {
+  border-radius: $roundedInputRadius !important;
+}
+
+//Because at the moment there is style in the main css for the buttons
+//we need to use important here. Remove when css architecture and design is fixed
+.flowersButton {
+  border-radius: 35px !important;
+  height: auto !important;
+  padding: 0.5rem 1rem;
+  text-transform: none !important;
+  min-width: 0px !important;
+  font-weight: normal !important;
+  display: flex;
+  align-items: center;
+}
+
+.withAddIndicator::before {
+  content: "+";
+  padding-right: 0.7rem;
+  font-size: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.cursorText {
+  cursor: text;
+}
+
+.flexEven {
+  flex: 1;
+}
+
+.responsiveImage {
+  width: 100%;
+  height: auto;
+}
+
+.backgroundColorBlueberry2 {
+  background-color: $blueberry2;
+}
+
+.backgroundColorBlueberry3 {
+  background-color: $blueberry3;
+}
+
+.backgroundColorBlueberry5 {
+  background-color: $blueberry5;
+}
+
+.backgroundColorBlueberry55 {
+  background-color: $blueberry55;
+}
+
+.backgroundColorBlueberry6 {
+  background-color: $blueberry6;
+}
+
+.backgroundColorBlueberry4 {
+  background-color: $blueberry4;
+}
+
+.backgroundColorBlueberry7 {
+  background-color: $blueberry7;
+}
+
+.backgroundColorGrey4 {
+  background-color: $grey4;
+}
+
+.backgroundColorGrey7 {
+  background-color: $grey7;
+}
+
+.backgroundColorWhite {
+  background-color: white;
+}
+
+.backgroundColorWhiteImportant {
+  background-color: white !important;
+}
+
+.colorLychee1 {
+  color: $lychee1;
+}
+
+.colorBlueberry3 {
+  color: $blueberry3;
+}
+
+.colorGrey1 {
+  color: $grey1;
+}
+
+.colorGrey2 {
+  color: $grey2;
+}
+
+.colorGrey7 {
+  color: $grey7;
+}
+
+.fontSourceSansPro {
+  font-family: Source Sans Pro, sans-serif;
+}
+
+.fontRobot {
+  font-family: Roboto, sans-serif;
+}
+
+.spinCenterAnimation {
+  -webkit-animation: spinCenter 4s infinite linear;
+  -moz-animation: spinCenter 4s infinite linear;
+  -o-animation: spinCenter 4s infinite linear;
+  -ms-animation: spinCenter 4s infinite linear;
+  animation: spinCenter 4s infinite linear;
+}
+
+@-webkit-keyframes spinCenter {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes spinCenter {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@-o-keyframes spinCenter {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@-ms-keyframes spinCenter {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes spinCenter {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.nextDiv100Height > div:first-child {
+  height: 100% !important;
+}
+
+.fillHeight {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+%fillHeightCommon {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.fillHeight > div {
+  @extend %fillHeightCommon;
+}
+
+.flexFillHeight {
+  @extend %fillHeightCommon;
+}
+
+.defaultFont {
+  font-family: "Source Sans Pro", Serif;
+}
+
+.textEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap;
+  line-height: 1.4;
+}

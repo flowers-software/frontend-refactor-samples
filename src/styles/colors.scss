@@ -1,0 +1,130 @@
+// Colors
+$grey-one: #2e2e2e;
+$grey-two: #5d7380;
+$grey-three: #829ea8;
+$grey-four: #c2ccd0;
+$grey-five: #E5E8E9;
+$grey-six: #ebecee;
+
+$grey1: #2E2E2E;
+$grey2: #5D7380;
+$grey3: #829EA8;
+$grey4: #C2CCD0;
+$grey5: #E5E8E9;
+$grey6: #EBECEE;
+$grey7: #F7F7F7;
+
+$blueberry-one: #012840;
+$blueberry-two: #195478;
+$blueberry-three: #4182aa;
+$blueberry-four: #90bdd9;
+$blueberry-five: #c5dae7;
+$blueberry-six: #e2f1fb;
+
+$blueberry1: #012840;
+$blueberry2: #195478;
+$blueberry3: #4182AA;
+$blueberry4: #90BDD9;
+$blueberry5: #c5dae7;
+$blueberry55: #D4E2EB;
+$blueberry6: #E2F1FB;
+$blueberry7: #91BDD9;
+$blueberry8: #DADADA;
+
+$blueberry3G1: rgba($blueberry3, 0.1);
+
+$lychee1: #EA4A64;
+$lychee2: #C93B52;
+
+$mint1: #02DEAA;
+$mint2: #00C093;
+
+$plum: #5e1b4d;
+
+$lychee-one: #ea4a64;
+$lychee-two: #c93b52;
+
+$mint-one: #02deaa;
+$mint-two: #00c093;
+$basil: #008c6b;
+
+$database: #F05904;
+$error: #bd0000;
+$lemon: #f2d622;
+$comments: #db00ff;
+
+$dark: #002733;
+$alert: #FF5986;
+$success: #12CEA1;
+$neutral: #9CA3AF;
+// check
+
+:export {
+  lychee1: $lychee1;
+
+  grey1: $grey1;
+  grey2: $grey2;
+  grey3: $grey3;
+  grey4: $grey4;
+  grey5: $grey5;
+  grey6: $grey6;
+  grey7: $grey7;
+
+  blueberry1: $blueberry1;
+  blueberry2: $blueberry2;
+  blueberry3: $blueberry3;
+  blueberry4: $blueberry4;
+  blueberry5: $blueberry5;
+  blueberry55: $blueberry55;
+  blueberry6: $blueberry6;
+  blueberry7: $blueberry7;
+  blueberry8: $blueberry8;
+
+  blueberry3G1: $blueberry3G1;
+
+  mint1: $mint1;
+  mint2: $mint2;
+
+  error: $error;
+  plum: $plum;
+  basil: $basil;
+
+  white: white;
+
+  dark: $dark;
+  alert: $alert;
+  success: $success;
+  neutral: $neutral;
+}
+
+.lychee1 {
+  color: $lychee1;
+}
+
+.mint1 {
+  color: $mint1;
+}
+
+.mint2 {
+  color: $mint2;
+}
+
+.grey5 {
+  color: $grey5;
+}
+
+.grey1 {
+  color: $grey1;
+}
+
+.grey2 {
+  color: $grey2;
+}
+
+.grey4 {
+  color: $grey4;
+}
+
+.grey7 {
+  color: $grey7;
+}

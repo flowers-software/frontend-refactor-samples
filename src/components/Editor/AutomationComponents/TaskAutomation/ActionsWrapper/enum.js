@@ -1,0 +1,6 @@
+export const DeadlineActionTypeEnum = {
+  SAME_AS_TRIGGER_TASK: 'SAME_AS_TRIGGER_TASK',
+  NEXT_DAY_OF_WEEK: 'NEXT_DAY_OF_WEEK',
+  NEXT_DAY_OF_MONTH: 'NEXT_DAY_OF_MONTH',
+  SET_IN: 'SET_IN',
+};

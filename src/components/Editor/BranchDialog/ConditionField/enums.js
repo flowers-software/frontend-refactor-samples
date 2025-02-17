@@ -1,0 +1,13 @@
+export const InputType = {
+    STRING: 'STRING',
+    NUMBER: 'NUMBER',
+    YES_NO: 'YES_NO',
+    TEXT: 'TEXT',
+    CHECKBOX: 'CHECKBOX',
+    OPTIONS: 'OPTIONS',
+    DATE: 'DATE',
+    CONTACTS: 'CONTACTS',
+    COMBINATION: 'COMBINATION',
+    FILE: 'FILE',
+    SIGNATURE: 'SIGNATURE',
+};

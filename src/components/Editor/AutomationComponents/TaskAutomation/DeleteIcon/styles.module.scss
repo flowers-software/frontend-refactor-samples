@@ -1,0 +1,19 @@
+@import "../../../../../styles/colors";
+
+.deleteWrapper {
+  width: 16px;
+  height: 16px;
+  background-color: $lychee-one;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.label {
+  color: $grey2;
+  font-size: 15px;
+  font-family: "Source Sans Pro";
+}
+
+.lineHeight {
+  line-height: normal;
+}
